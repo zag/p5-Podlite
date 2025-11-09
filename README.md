@@ -106,7 +106,7 @@ For complete documentation, run:
 perldoc Podlite
 ```
 
-Or see the [Podlite Specification Summary](SPECIFICATION_SUMMARY.md) for a comprehensive reference.
+Or see the [Podlite Specification](https://podlite.org/specification) for a comprehensive reference.
 
 ## Podlite Ecosystem
 
