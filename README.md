@@ -116,7 +116,7 @@ Or see the [Podlite Specification](https://podlite.org/specification) for a comp
 - [Discussions](https://github.com/podlite/podlite-specs/discussions)
 
 ### Implementation
-- [Main Implementation](https://github.com/podlite/podlite)
+- [Main implementation](https://github.com/podlite/podlite)
 - [Changelog](https://github.com/podlite/podlite/releases)
 - [Issues](https://github.com/podlite/podlite/issues)
 
