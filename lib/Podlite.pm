@@ -169,7 +169,7 @@ Task lists with checkboxes:
 
 Tables with captions:
 
-    =begin table :caption<System Requirements>
+    =begin table :caption('System Requirements')
     Component    Minimum     Recommended
     CPU          2 GHz       4 GHz
     RAM          4 GB        16 GB
@@ -177,7 +177,7 @@ Tables with captions:
 
 Notification blocks (callouts):
 
-    =begin nested :notify<warning> :caption<Important>
+    =begin nested :notice<warning> :caption<Important>
     This feature is experimental and may change.
     =end nested
 
@@ -251,7 +251,7 @@ The general syntax is:
 
 For example:
 
-    =begin table :caption<Table of Contents>
+    =begin table :caption('Table of Contents')
         Constants           1
         Variables           10
         Subroutines         33
@@ -280,7 +280,7 @@ block and optional configuration information. The general syntax is:
 
 For example:
 
-    =for table :caption<Table of Contents>
+    =for table :caption('Table of Contents')
         Constants           1
         Variables           10
         Subroutines         33
@@ -349,7 +349,7 @@ be applied uniformly to built-in block types. These include:
 Assigns a title to the given block, typically used for creating a table of
 contents.
 
-    =for table :caption<Performance Benchmarks>
+    =for table :caption('Performance Benchmarks')
 
 =head3 :id
 
@@ -459,7 +459,7 @@ Podlite supports many block types including:
 
 =item Markdown blocks (C<=markdown>) - Embedded Markdown
 
-=item Notification blocks (C<=nested :notify>) - Callouts/admonitions
+=item Notification blocks (C<=nested :notice>) - Callouts/admonitions
 
 =item Semantic blocks (C<=SYNOPSIS>, C<=AUTHOR>, etc.) - Uppercase names
 
@@ -515,7 +515,7 @@ Podlite 1.0 includes many advanced features:
 
 =over
 
-=item B<Notification blocks> - Callouts/admonitions with C<:notify> attribute
+=item B<Notification blocks> - Callouts/admonitions with C<:notice> attribute
 
 =item B<Table of contents> - C<=toc> block with selectors
 
@@ -578,7 +578,7 @@ None. You C<use> the module and it takes care of everything.
 
 =head2 Table with Caption
 
-    =begin table :caption<Performance Benchmarks>
+    =begin table :caption('Performance Benchmarks')
     Operation      Time (ms)   Memory (MB)
     Parse          45          12
     Render         23          8
@@ -587,7 +587,7 @@ None. You C<use> the module and it takes care of everything.
 
 =head2 Notification Block
 
-    =begin nested :notify<warning> :caption<Important Note>
+    =begin nested :notice<warning> :caption('Important Note')
     This feature is experimental and may change in future releases.
     =end nested
 

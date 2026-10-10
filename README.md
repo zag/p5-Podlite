@@ -48,7 +48,7 @@ print "Sum: ", $x + $y, "\n";
 
 ### Table with Caption
 ```perl
-=begin table :caption<Performance Benchmarks>
+=begin table :caption('Performance Benchmarks')
 Operation      Time (ms)   Memory (MB)
 Parse          45          12
 Render         23          8
@@ -58,7 +58,7 @@ Export         67          15
 
 ### Notification Block
 ```perl
-=begin nested :notify<warning> :caption<Important Note>
+=begin nested :notice<warning> :caption('Important Note')
 This feature is experimental and may change in future releases.
 =end nested
 ```
